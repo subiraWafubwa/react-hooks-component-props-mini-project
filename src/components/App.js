@@ -9,7 +9,7 @@ console.log(blogData);
 function App() {
   return (
     <div className="App">
-      <Header name="Out here studying React" />
+      <Header name="Underreacted" />
       <About about={blogData.about} image={blogData.image} />
       <ArticleList posts={blogData.posts} />
     </div>
